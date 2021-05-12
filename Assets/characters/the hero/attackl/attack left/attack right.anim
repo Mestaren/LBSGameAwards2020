@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: attack left
+  m_Name: attack right
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,18 +20,16 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 291b9f0f0ac3f13469d22c37c7e87b0e, type: 3}
-    - time: 0.1
-      value: {fileID: 21300000, guid: 61d370e95b9bf0944b8e9484666eae3b, type: 3}
-    - time: 0.2
-      value: {fileID: 21300000, guid: be66a390dd411904ebe4564fa0f339cf, type: 3}
-    - time: 0.3
-      value: {fileID: 21300000, guid: 2e2d621a711471949a7f27df4e005c91, type: 3}
+      value: {fileID: 21300000, guid: 401db2929de62074eb4fcbad53cc0f1b, type: 3}
+    - time: 0.125
+      value: {fileID: 21300000, guid: 5d19eb5796309614a85c7be0c46f2cf3, type: 3}
+    - time: 0.25
+      value: {fileID: 21300000, guid: 420f6694470622c40b15d396517d2acf, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 10
+  m_SampleRate: 8
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -46,16 +44,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 291b9f0f0ac3f13469d22c37c7e87b0e, type: 3}
-    - {fileID: 21300000, guid: 61d370e95b9bf0944b8e9484666eae3b, type: 3}
-    - {fileID: 21300000, guid: be66a390dd411904ebe4564fa0f339cf, type: 3}
-    - {fileID: 21300000, guid: 2e2d621a711471949a7f27df4e005c91, type: 3}
+    - {fileID: 21300000, guid: 401db2929de62074eb4fcbad53cc0f1b, type: 3}
+    - {fileID: 21300000, guid: 5d19eb5796309614a85c7be0c46f2cf3, type: 3}
+    - {fileID: 21300000, guid: 420f6694470622c40b15d396517d2acf, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.4
+    m_StopTime: 0.375
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

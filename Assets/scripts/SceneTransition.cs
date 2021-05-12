@@ -10,9 +10,9 @@ public class SceneTransition : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player") && !other.isTrigger)
+        if(other.CompareTag("Player") && !other.isTrigger) //ser till att bara en player kan trigga
         {
-            SceneManager.LoadScene(sceneToLoad);
+            SceneManager.LoadScene(sceneToLoad); // triggar scene byte
         }
     }
     
